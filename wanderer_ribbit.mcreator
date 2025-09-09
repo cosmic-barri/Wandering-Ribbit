@@ -1,0 +1,271 @@
+{
+  "mod_elements": [
+    {
+      "name": "WandererRibbit",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wanderer_ribbit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wandererribbit/client/renderer/WandererRibbitRenderer.java",
+          "src/main/resources/assets/wanderer_ribbit/models/item/wanderer_ribbit_spawn_egg.json",
+          "src/main/java/net/mcreator/wandererribbit/entity/WandererRibbitEntity.java",
+          "src/main/resources/data/wanderer_ribbit/neoforge/biome_modifier/wanderer_ribbit_biome_modifier.json",
+          "src/main/java/net/mcreator/wandererribbit/entity/model/WandererRibbitModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Trade",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wandererribbit/client/gui/TradeScreen.java",
+          "src/main/java/net/mcreator/wandererribbit/network/TradeButtonMessage.java",
+          "src/main/java/net/mcreator/wandererribbit/world/inventory/TradeMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "WandererRibbitRightClickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wanderer_ribbit_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/wandererribbit/procedures/WandererRibbitRightClickedOnEntityProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TradeButtonProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trade_button_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/wandererribbit/procedures/TradeButtonProcedureProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RibbitMapRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ribbit_map_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/wandererribbit/procedures/RibbitMapRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RibbitMap",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ribbit_map",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wanderer_ribbit/models/item/ribbit_map.json",
+          "src/main/java/net/mcreator/wandererribbit/item/RibbitMapItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ModCheck",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_check",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/wandererribbit/procedures/ModCheckProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DependencyCheck",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dependency_check",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/wandererribbit/procedures/DependencyCheckProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "wanderer_ribbit_ambient",
+      "files": [
+        "ribbit_ambient1"
+      ],
+      "category": "neutral",
+      "subtitle": "wanderer_ribbit_ambient"
+    },
+    {
+      "name": "wanderer_ribbit_hurt",
+      "files": [
+        "ribbit_hurt1"
+      ],
+      "category": "neutral",
+      "subtitle": "wanderer_ribbit_hurt"
+    },
+    {
+      "name": "wanderer_ribbit_death",
+      "files": [
+        "ribbit_death1"
+      ],
+      "category": "neutral",
+      "subtitle": "wanderer_ribbit_death"
+    },
+    {
+      "name": "wanderer_ribbit_step",
+      "files": [
+        "ribbit_step1"
+      ],
+      "category": "neutral",
+      "subtitle": "wanderer_ribbit_step"
+    }
+  ],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.wanderer_ribbit.wanderer_ribbit_spawn_egg": "Wandering Ribbit Spawn Egg",
+      "entity.wanderer_ribbit.wanderer_ribbit": "Wandering Ribbit",
+      "gui.wanderer_ribbit.trade.button_trade1": "Trade1",
+      "gui.wanderer_ribbit.trade.button_accept": "Accept",
+      "gui.wanderer_ribbit.trade.tooltip_item0": "item0",
+      "gui.wanderer_ribbit.trade.tooltip_item1": "item1",
+      "item.wanderer_ribbit.ribbit_map": "Ribbit Map",
+      "gui.wanderer_ribbit.trade.label_yes": "YES!",
+      "gui.wanderer_ribbit.trade.tooltip_amethyst": "Amethyst",
+      "gui.wanderer_ribbit.trade.tooltip_ribbit_map": "Ribbit Map",
+      "gui.wanderer_ribbit.trade.tooltip_compass": "Compass",
+      "gui.wanderer_ribbit.trade.button_trade": "Trade",
+      "gui.wanderer_ribbit.trade.tooltip_amethyst1": "Amethyst",
+      "gui.wanderer_ribbit.trade.tooltip_emerald": "Emerald",
+      "gui.wanderer_ribbit.trade.tooltip_frog_pill": "Frog Pill",
+      "subtitles.wanderer_ribbit": "wandering_ribbit",
+      "subtitles.wanderer_ribbit_ambient": "wandering_ribbit_ambient",
+      "subtitles.wanderer_ribbit_hurt": "wandering_ribbit_hurt",
+      "subtitles.wanderer_ribbit_death": "wandering_ribbit_death",
+      "subtitles.wanderer_ribbit_step": "wandering_ribbit_step"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/mixins.wanderer_ribbit.json",
+      "src/main/java/net/mcreator/wandererribbit/WandererRibbitMod.java",
+      "src/main/java/net/mcreator/wandererribbit/init/WandererRibbitModTabs.java",
+      "src/main/java/net/mcreator/wandererribbit/init/WandererRibbitModSounds.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/assets/wanderer_ribbit/sounds.json",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/wandererribbit/init/EntityAnimationFactory.java",
+      "src/main/java/net/mcreator/wandererribbit/init/WandererRibbitModMenus.java",
+      "src/main/java/net/mcreator/wandererribbit/init/WandererRibbitModScreens.java",
+      "src/main/java/net/mcreator/wandererribbit/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/wandererribbit/init/WandererRibbitModItems.java",
+      "src/main/java/net/mcreator/wandererribbit/init/WandererRibbitModEntityRenderers.java",
+      "src/main/java/net/mcreator/wandererribbit/init/WandererRibbitModEntities.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "wanderer_ribbit",
+    "modName": "Wanderer_Ribbit",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.wandererribbit"
+  },
+  "mcreatorVersion": 202500228610
+}
