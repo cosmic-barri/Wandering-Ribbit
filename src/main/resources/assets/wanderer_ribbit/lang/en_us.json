@@ -1,0 +1,22 @@
+{
+  "item.wanderer_ribbit.wanderer_ribbit_spawn_egg": "Wandering Ribbit Spawn Egg",
+  "entity.wanderer_ribbit.wanderer_ribbit": "Wandering Ribbit",
+  "gui.wanderer_ribbit.trade.button_trade1": "Trade1",
+  "gui.wanderer_ribbit.trade.button_accept": "Accept",
+  "gui.wanderer_ribbit.trade.tooltip_item0": "item0",
+  "gui.wanderer_ribbit.trade.tooltip_item1": "item1",
+  "item.wanderer_ribbit.ribbit_map": "Ribbit Map",
+  "gui.wanderer_ribbit.trade.label_yes": "YES!",
+  "gui.wanderer_ribbit.trade.tooltip_amethyst": "Amethyst",
+  "gui.wanderer_ribbit.trade.tooltip_ribbit_map": "Ribbit Map",
+  "gui.wanderer_ribbit.trade.tooltip_compass": "Compass",
+  "gui.wanderer_ribbit.trade.button_trade": "Trade",
+  "gui.wanderer_ribbit.trade.tooltip_amethyst1": "Amethyst",
+  "gui.wanderer_ribbit.trade.tooltip_emerald": "Emerald",
+  "gui.wanderer_ribbit.trade.tooltip_frog_pill": "Frog Pill",
+  "subtitles.wanderer_ribbit": "wandering_ribbit",
+  "subtitles.wanderer_ribbit_ambient": "wandering_ribbit_ambient",
+  "subtitles.wanderer_ribbit_hurt": "wandering_ribbit_hurt",
+  "subtitles.wanderer_ribbit_death": "wandering_ribbit_death",
+  "subtitles.wanderer_ribbit_step": "wandering_ribbit_step"
+}
